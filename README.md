@@ -1,2 +1,2 @@
 # Gra-kolorow
-Gra kolorów w HTML
+Gra kolorów przy użyciu technologii HTML, CSS, JavaScript
