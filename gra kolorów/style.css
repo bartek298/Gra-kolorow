@@ -1,0 +1,71 @@
+body{
+    width: 300px;
+    margin: auto;
+}
+#start{
+    background-color: orange;
+    font-size: 32px;
+    height: 80px;
+    border: 3px solid black;
+    border-radius: 8px;
+    padding: 8px 32px;
+
+}
+#start:hover{
+    background-color: crimson;
+}
+
+.color{
+    width: 150px;
+    height: 150px;
+    transition: transform 500ms;
+}
+.color:hover{
+    transform: scale(0.82);
+}
+#Blue{
+    background-color: aqua;
+}
+#Green{
+    background-color: rgb(5, 202, 25);
+}
+#Yellow{
+    background-color: yellow;
+}
+#Red{
+    background-color: red;
+}
+.row{
+    float: left;
+}
+#Top{
+    margin-top: 20px;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+}
+#points{
+    color: brown;
+    font-size: 40px;
+    margin-left: 5%;
+
+}
+#time{
+    color: darkgoldenrod;
+    margin-left: 50%;
+    font-size: 40px;
+}
+#False,#True{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    left: 45%;
+    top: 10%;
+    opacity: 0;
+    pointer-events: none;
+
+}
+#color1,#color2{
+    font-size: 300%;
+    text-align: center;
+}
